@@ -8,11 +8,14 @@
 
 #import "RAAppDelegate.h"
 #import "RAViewController.h"
+#import "RARecipes.h"
 
 @implementation RAAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
    RAViewController *recipeViewController = [RAViewController new];
@@ -23,6 +26,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
