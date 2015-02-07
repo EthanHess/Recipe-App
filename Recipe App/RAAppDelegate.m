@@ -18,7 +18,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-   RAViewController *recipeViewController = [RAViewController new];
+    RAViewController *recipeViewController = [RAViewController new];
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:recipeViewController];
     
     self.window.rootViewController = navController;

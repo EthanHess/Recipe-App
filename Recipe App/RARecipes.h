@@ -14,6 +14,7 @@ static NSString * const RecipeIngredientsKey = @"recipeIngredients";
 static NSString * const IngredientVolumeKey = @"ingredientVolume";
 static NSString * const IngredientTypeKey = @"ingredientType";
 static NSString * const DirectionsKey = @"directions";
+static NSString * const RecipeImageKey = @"recipeImage";
 
 @interface RARecipes : NSObject
 
@@ -31,5 +32,9 @@ static NSString * const DirectionsKey = @"directions";
 
 + (NSString *)ingredientVolumeAtIndex:(NSInteger)ingIndex inRecipeAtIndex:(NSInteger)recIndex;
 
++ (NSArray *)directionsAtIndex:(NSInteger)index;
+
 + (NSArray *)recipes;
+
++ (NSString *)imageAtIndex:(NSInteger)index;
 @end

@@ -27,11 +27,13 @@ static NSString *const cellIndentifier = @"indentifier";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier forIndexPath:indexPath];
     cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row];
+    
+    cell.imageView.image = [UIImage imageNamed:[RARecipes imageAtIndex:indexPath.row]];
+    
     return cell;
+
+
 }
-
-
-
 
 @end
 

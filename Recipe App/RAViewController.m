@@ -46,7 +46,7 @@ static NSString *title;
     
     DetailViewController *dvc = [DetailViewController new];
     
-    dvc.indexPathSelected = indexPath;
+    dvc.recipeIndex = indexPath.row;
     [self.navigationController pushViewController:dvc animated:YES];
     
     

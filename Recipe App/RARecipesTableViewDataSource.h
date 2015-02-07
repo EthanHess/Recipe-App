@@ -12,4 +12,6 @@
 
 -(void)registerTableView:(UITableView *)tableView;
 
+-(NSArray *)foodImages;
+
 @end

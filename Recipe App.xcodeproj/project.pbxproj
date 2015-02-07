@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		27C8C9191A84179C0090DB9F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8C9181A84179C0090DB9F /* DetailViewController.m */; };
+		27C8C95A1A85910D0090DB9F /* GarlicPork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C9591A85910D0090DB9F /* GarlicPork.jpg */; };
+		27C8C95C1A8591A60090DB9F /* Salmon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C95B1A8591A60090DB9F /* Salmon.jpg */; };
+		27C8C95E1A8591BA0090DB9F /* Pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C95D1A8591BA0090DB9F /* Pie.jpg */; };
+		27C8C9601A8591CF0090DB9F /* ChickenJam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C95F1A8591CF0090DB9F /* ChickenJam.jpg */; };
+		27C8C9621A8591D60090DB9F /* ChocCake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C9611A8591D60090DB9F /* ChocCake.jpg */; };
 		27CF03D51A82CC32004B30FB /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF03D41A82CC32004B30FB /* RAViewController.m */; };
 		27CF03D81A82CD5B004B30FB /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF03D71A82CD5B004B30FB /* RARecipes.m */; };
 		27CF03DB1A82CF79004B30FB /* RARecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF03DA1A82CF79004B30FB /* RARecipesTableViewDataSource.m */; };
@@ -38,6 +43,11 @@
 /* Begin PBXFileReference section */
 		27C8C9171A84179C0090DB9F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		27C8C9181A84179C0090DB9F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		27C8C9591A85910D0090DB9F /* GarlicPork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GarlicPork.jpg; path = ../../../GarlicPork.jpg; sourceTree = "<group>"; };
+		27C8C95B1A8591A60090DB9F /* Salmon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Salmon.jpg; sourceTree = "<group>"; };
+		27C8C95D1A8591BA0090DB9F /* Pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pie.jpg; sourceTree = "<group>"; };
+		27C8C95F1A8591CF0090DB9F /* ChickenJam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChickenJam.jpg; sourceTree = "<group>"; };
+		27C8C9611A8591D60090DB9F /* ChocCake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChocCake.jpg; sourceTree = "<group>"; };
 		27CF03D31A82CC32004B30FB /* RAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAViewController.h; sourceTree = "<group>"; };
 		27CF03D41A82CC32004B30FB /* RAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAViewController.m; sourceTree = "<group>"; };
 		27CF03D61A82CD5B004B30FB /* RARecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipes.h; sourceTree = "<group>"; };
@@ -138,6 +148,11 @@
 		71F67B57192C8D6A00E609F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27C8C9611A8591D60090DB9F /* ChocCake.jpg */,
+				27C8C95F1A8591CF0090DB9F /* ChickenJam.jpg */,
+				27C8C95D1A8591BA0090DB9F /* Pie.jpg */,
+				27C8C95B1A8591A60090DB9F /* Salmon.jpg */,
+				27C8C9591A85910D0090DB9F /* GarlicPork.jpg */,
 				71F67B58192C8D6A00E609F1 /* Recipe App-Info.plist */,
 				71F67B59192C8D6A00E609F1 /* InfoPlist.strings */,
 				71F67B5C192C8D6A00E609F1 /* main.m */,
@@ -240,8 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C8C95E1A8591BA0090DB9F /* Pie.jpg in Resources */,
 				71F67B5B192C8D6A00E609F1 /* InfoPlist.strings in Resources */,
+				27C8C95A1A85910D0090DB9F /* GarlicPork.jpg in Resources */,
 				71F67B63192C8D6A00E609F1 /* Images.xcassets in Resources */,
+				27C8C9621A8591D60090DB9F /* ChocCake.jpg in Resources */,
+				27C8C9601A8591CF0090DB9F /* ChickenJam.jpg in Resources */,
+				27C8C95C1A8591A60090DB9F /* Salmon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

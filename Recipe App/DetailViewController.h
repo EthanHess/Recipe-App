@@ -10,7 +10,8 @@
 
 @interface DetailViewController : UIViewController
 
-@property (nonatomic, strong) NSIndexPath *indexPathSelected;
+//@property (nonatomic, strong) NSIndexPath *indexPathSelected;
+@property (nonatomic, assign) NSInteger recipeIndex;
 
 
 
